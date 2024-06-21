@@ -15,7 +15,7 @@ decorations = "full"
 startup_mode = "Windowed"
 padding = {x = 0, y = 0}
 # position = {x = 0, y = 0}
-dimensions = {columns = 116, lines = 34}
+dimensions = {columns = 128, lines = 34}
 
 [scrolling]
 history = 10000
