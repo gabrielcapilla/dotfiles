@@ -1,0 +1,245 @@
+ape.write_apev2 1
+cli_add_playlist_name Default
+deadbeef_version 1.9.6
+filechooser.lastdir file:///home/
+filechooser.playlist.lastdir file:///home/human/M%C3%BAsica/_Lista%20de%20reproducci%C3%B3n
+gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Año","id":"-1","format":"%year%","sort_format":"","size":"205","align":"0","color_override":"0","color":"#ff242424"},{"title":"Álbum","id":"-1","format":"%album%","sort_format":"","size":"623","align":"0","color_override":"0","color":"#ff242424"},{"title":"Disco","id":"9","format":"%discnumber%","sort_format":"","size":"83","align":"0","color_override":"0","color":"#ff242424"},{"title":"N.º de la pista","id":"-1","format":"%tracknumber%","sort_format":"","size":"172","align":"1","color_override":"0","color":"#ff000000"},{"title":"Título","id":"-1","format":"%title%","sort_format":"","size":"264","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duración","id":"-1","format":"%length%","sort_format":"","size":"111","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.embolden_current_track 1
+gtkui.embolden_selected_tracks 0
+gtkui.eq.visible 0
+gtkui.hide_tray_icon 1
+gtkui.italic_selected_tracks 1
+gtkui.last_playlist_save_name /home/human/Heartbroken Mermaid.dbpl
+gtkui.layout.1.9.0 {"type":"hsplitter","legacy_params":" locked=0 ratio=0,197217 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0,907426 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0,565170 pos=0 size2=0","children":[{"type":"tabs","settings":{"active":"1","num_tabs":"3","tab000":"Media Library","tab001":"Navegador de listas de reproducción","tab002":"Lyricbar"},"children":[{"type":"medialib"},{"type":"pltbrowser"},{"type":"lyricbar"}]},{"type":"coverart","settings":{"mode":"selected"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0,000000 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#f6f5f4\" textcolor=\"#000000\" icon=\"gtk-media-previous\" label=\"Prev.\" action=\"prev\" use_color=0 use_textcolor=0"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0,978495 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#77767b\" textcolor=\"#f6f5f4\" label=\"Play/Pause\" action=\"play_pause\" use_color=0 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#f6f5f4\" textcolor=\"#000000\" icon=\"gtk-media-next\" label=\"Next\" action=\"next\" use_color=0 use_textcolor=0"}]}]}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0,509901 pos=0 size2=0","children":[{"type":"playlist","legacy_params":" hideheaders=0 width=1535"},{"type":"vsplitter","legacy_params":" locked=0 ratio=0,933638 pos=308 size2=116","children":[{"type":"musical_spectrum"},{"type":"waveform_seekbar"}]}]}]}
+gtkui.override_bar_colors 1
+gtkui.override_listview_colors 1
+gtkui.override_tabstrip_colors 0
+gtkui.playlist.group_by_tf 
+gtkui.refresh_rate 8
+gtkui.search.group_by_tf 
+gtkui.start_hidden 0
+gtkui.statusbar.visible 1
+gtkui.statusbar_seltime 1
+gtkui.tabscroll 0
+gtkui.tabstrip_embolden_playing 0
+gtkui.tabstrip_italic_playing 0
+gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
+gtkui.titlebar_stopped_tf DeaDBeeF
+gtkui.vis.use_custom_background_color 0
+gtkui.vis.use_custom_base_color 0
+gui_plugin GTK3
+hotkey.key01 "Ctrl f" 0 0 find
+hotkey.key02 "Ctrl o" 0 0 open_files
+hotkey.key03 "Ctrl q" 0 0 quit
+hotkey.key04 "Ctrl n" 0 0 new_playlist
+hotkey.key05 "Ctrl a" 0 0 select_all
+hotkey.key06 "Escape" 0 0 deselect_all
+hotkey.key07 "Ctrl m" 0 0 toggle_stop_after_current
+hotkey.key08 "Ctrl j" 0 0 jump_to_current_track
+hotkey.key09 "F1" 0 0 help
+hotkey.key10 "Delete" 1 0 remove_from_playlist
+hotkey.key11 "Ctrl w" 0 0 remove_current_playlist
+hotkey.key13 "Alt Return" 1 0 track_properties
+hotkey.key14 "Return" 0 0 play
+hotkey.key15 "Ctrl p" 0 0 toggle_pause
+hotkey.key16 "Alt 1" 0 0 playlist1
+hotkey.key17 "Alt 2" 0 0 playlist2
+hotkey.key18 "Alt 3" 0 0 playlist3
+hotkey.key19 "Alt 4" 0 0 playlist4
+hotkey.key20 "Alt 5" 0 0 playlist5
+hotkey.key21 "Alt 6" 0 0 playlist6
+hotkey.key22 "Alt 7" 0 0 playlist7
+hotkey.key23 "Alt 8" 0 0 playlist8
+hotkey.key24 "Alt 9" 0 0 playlist9
+hotkey.key25 "Alt 0" 0 0 playlist10
+hotkey.key26 z 0 0 prev
+hotkey.key27 x 0 0 play
+hotkey.key28 c 0 0 toggle_pause
+hotkey.key29 v 0 0 stop
+hotkey.key30 b 0 0 next
+hotkey.key31 n 0 0 playback_random
+hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
+hotkeys_created 1
+junk.enable_shift_jis_detection 1
+logwindow.geometry.h 1124
+logwindow.geometry.w 1269
+logwindow.geometry.x 0
+logwindow.geometry.y 0
+lyricbar.customcmd 
+lyricbar.lyrics.alignment 1
+mainwin.geometry.h 1046
+mainwin.geometry.maximized 0
+mainwin.geometry.w 1920
+mainwin.geometry.x 0
+mainwin.geometry.y 0
+mp3.id3v1_encoding iso8859-1
+mp3.id3v2_version 3
+mp3.write_id3v1 1
+mp3.write_id3v2 1
+musical_spectrum.alignment 2
+musical_spectrum.amp_max 0
+musical_spectrum.amp_min -60
+musical_spectrum.bar_delay 100
+musical_spectrum.bar_falloff 100
+musical_spectrum.bar_w 0
+musical_spectrum.channel 262143
+musical_spectrum.color.background 0 0 0
+musical_spectrum.color.black_keys 0 0 0
+musical_spectrum.color.gradient_00 65535 0 0
+musical_spectrum.color.gradient_01 65535 32896 0
+musical_spectrum.color.gradient_02 65535 65535 0
+musical_spectrum.color.gradient_03 32896 65535 30840
+musical_spectrum.color.gradient_04 0 38036 41120
+musical_spectrum.color.gradient_05 0 8224 25700
+musical_spectrum.color.hgrid 21845 21845 21845
+musical_spectrum.color.ogrid 42148 0 0
+musical_spectrum.color.peaks 42148 0 0
+musical_spectrum.color.text 65535 65535 65535
+musical_spectrum.color.vgrid 21845 21845 21845
+musical_spectrum.color.white_keys 10240 10240 10240
+musical_spectrum.draw_style 0
+musical_spectrum.enable_amp 0
+musical_spectrum.enable_bar_mode 0
+musical_spectrum.enable_black_keys 0
+musical_spectrum.enable_bottom_labels 1
+musical_spectrum.enable_hgrid 1
+musical_spectrum.enable_left_labels 1
+musical_spectrum.enable_ogrid 0
+musical_spectrum.enable_peaks 1
+musical_spectrum.enable_peaks_color 0
+musical_spectrum.enable_right_labels 1
+musical_spectrum.enable_tooltip 1
+musical_spectrum.enable_top_labels 0
+musical_spectrum.enable_vgrid 1
+musical_spectrum.enable_white_keys 1
+musical_spectrum.fft_size 8192
+musical_spectrum.fill_spectrum 1
+musical_spectrum.font Sans 7
+musical_spectrum.font_tooltip Sans 9
+musical_spectrum.gaps 1
+musical_spectrum.gradient_orientation 0
+musical_spectrum.interpolate 0
+musical_spectrum.note_max 125
+musical_spectrum.note_min 0
+musical_spectrum.num_colors 6
+musical_spectrum.peak_delay 300
+musical_spectrum.peak_falloff 50
+musical_spectrum.pitch 440
+musical_spectrum.refresh_interval 25
+musical_spectrum.spacing 1
+musical_spectrum.transpose 0
+musical_spectrum.window 1
+network.proxy.port 8080
+output_plugin alsa
+playback.loop 0
+playback.order 0
+playback.volume.normalized 1.0000000
+playlist.current 6
+playlist.cursor.0 10
+playlist.cursor.1 14
+playlist.cursor.10 19
+playlist.cursor.11 19
+playlist.cursor.12 19
+playlist.cursor.13 19
+playlist.cursor.14 19
+playlist.cursor.15 19
+playlist.cursor.16 19
+playlist.cursor.17 19
+playlist.cursor.18 60
+playlist.cursor.19 0
+playlist.cursor.2 1
+playlist.cursor.3 12
+playlist.cursor.4 21
+playlist.cursor.5 0
+playlist.cursor.6 22
+playlist.cursor.7 -1
+playlist.cursor.8 3
+playlist.cursor.9 19
+playlist.scroll.0 -10
+playlist.scroll.1 -14
+playlist.scroll.10 0
+playlist.scroll.11 0
+playlist.scroll.12 0
+playlist.scroll.13 0
+playlist.scroll.14 0
+playlist.scroll.15 0
+playlist.scroll.16 0
+playlist.scroll.17 0
+playlist.scroll.18 1321
+playlist.scroll.19 0
+playlist.scroll.2 -5
+playlist.scroll.3 0
+playlist.scroll.4 96
+playlist.scroll.5 0
+playlist.scroll.6 165
+playlist.scroll.7 0
+playlist.scroll.8 -2
+playlist.scroll.9 0
+playlist.scroll.cursorfollowplayback 1
+playlist.stop_after_album 0
+playlist.stop_after_current 0
+playlist.tab.00000 C. Tangana
+playlist.tab.00001 Factorio
+playlist.tab.00002 Heartbroken Mermaid
+playlist.tab.00003 Jusant
+playlist.tab.00004 Justice
+playlist.tab.00005 Level Select
+playlist.tab.00006 Dusqk
+playlist.tab.00007 Default
+prefwin.geometry.h 814
+prefwin.geometry.w 1540
+prefwin.geometry.x 1149
+prefwin.geometry.y 594
+replaygain.processing_flags 3
+replaygain.source_mode 1
+resume.paused 1
+resume.playlist 6
+resume.position 60,416332
+resume.track 22
+streamer.16_to_24 1
+streamer.bit_override 0
+streamer.samplerate 44100
+streamer.samplerate_mult_44 44100
+streamer.samplerate_mult_48 48000
+trkproperties.geometry.h 860
+trkproperties.geometry.w 984
+trkproperties.geometry.x 0
+trkproperties.geometry.y 0
+waveform.bg_alpha 65535
+waveform.bg_color_b 50000
+waveform.bg_color_g 50000
+waveform.bg_color_r 50000
+waveform.border_width 1
+waveform.cache_enabled 1
+waveform.cursor_width 3
+waveform.display_rms 1
+waveform.display_ruler 0
+waveform.fg_alpha 65535
+waveform.fg_color_b 20000
+waveform.fg_color_g 20000
+waveform.fg_color_r 20000
+waveform.fg_rms_alpha 65535
+waveform.fg_rms_color_b 5000
+waveform.fg_rms_color_g 5000
+waveform.fg_rms_color_r 5000
+waveform.fill_waveform 1
+waveform.font_size 18
+waveform.log_enabled 0
+waveform.max_file_length 180
+waveform.mix_to_mono 0
+waveform.num_samples 2048
+waveform.pb_alpha 36021
+waveform.pb_color_b 45874
+waveform.pb_color_g 14640
+waveform.pb_color_r 0
+waveform.refresh_interval 33
+waveform.render_method 1
+waveform.rlr_alpha 65535
+waveform.rlr_color_b 0
+waveform.rlr_color_g 0
+waveform.rlr_color_r 0
+waveform.scroll_enabled 1
+waveform.shade_waveform 1
+waveform.soundcloud_style 0
+wv.write_apev2 1

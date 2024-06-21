@@ -1,0 +1,35 @@
+import = [
+"~/.config/alacritty/fonts.toml",
+"~/.config/alacritty/darkly.toml",
+]
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+blur = false
+opacity = 1
+decorations = "full"
+startup_mode = "Windowed"
+padding = {x = 0, y = 0}
+# position = {x = 0, y = 0}
+dimensions = {columns = 116, lines = 34}
+
+[scrolling]
+history = 10000
+multiplier = 6
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[cursor]
+blink_timeout = 0
+blink_interval = 600
+unfocused_hollow = false
+style = {shape = "Block", blinking = "Always"}
+
+[mouse]
+hide_when_typing = true
