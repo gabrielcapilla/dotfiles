@@ -1,6 +1,5 @@
 [colors.primary]
 foreground = "#f8f8f2"
-#background = "#363636" # whitesur-dark
 background = "#272727"
 bright_foreground = "#ffffff"
 
