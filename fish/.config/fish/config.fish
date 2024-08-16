@@ -1,17 +1,17 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
-source ~/.config/fish/syntax.fish
+source $HOME/.config/fish/syntax.fish
 
 # NIM & NIMBLE
-set -ga fish_user_paths /home/human/.nimble/bin
+set -ga fish_user_paths $HOME/.nimble/bin
 
 # PYTHON
 set -gx PATH $HOME/.local/bin $PATH
 
-# EDITOR DE TEXTO EN TERMINAL PREDETERMINADO
+# DEFAULT TERMINAL TEXT EDITOR
 export EDITOR='helix'
 export VISUAL='helix'
 
-# ACCIONES DEL SISTEMA
+# SYSTEM ACTIONS
 alias :q='exit'
 alias :q!='exit'
 alias :c='clear'
@@ -29,10 +29,12 @@ alias bios='systemctl reboot --firmware-setup'
 # QUICKLAUNCH
 alias yy='yazi'
 alias hx='helix'
+alias dotfiles='cd $HOME/.dotfiles'
 alias resolve='/opt/resolve/bin/resolve'
+alias code.dotfiles='code $HOME/.dotfiles'
 
-# ENTORNO VIRTUAL PYTHON
-alias envspotdl='. /home/human/.python-env/spotdl-env/bin/activate.fish'
+# PYTHON VIRTUAL ENVIRONMENT
+alias envspotdl='. $HOME/.python-env/spotdl-env/bin/activate.fish'
 
 # INIT
 envspotdl
