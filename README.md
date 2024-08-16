@@ -56,5 +56,5 @@ Some plug-ins are focused on AMD GPUs. Although the configuration still works fo
 |-----:|-----------|
 |CTRL+1|Disable|
 |CTRL+2|Cine|
-|CTRL+3|Anime (1080p|
+|CTRL+3|Anime (1080p)|
 |CTRL+4|Anime (720p)|
