@@ -16,7 +16,7 @@
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
   "workbench.preferredLightColorTheme": "Catppuccin Latte",
-  "workbench.iconTheme": "catppuccin-perfect-latte",
+  "workbench.iconTheme": "catppuccin-perfect-mocha",
 
   //// EDITOR
   "editor.tabSize": 2,
@@ -101,7 +101,10 @@
   },
 
   // DESKTOP FILES
-  "files.associations": { "*.desktop": "desktop" },
+  "files.associations": {
+    "*.colors": "ini",
+    "*.desktop": "desktop"
+  },
 
   // MARKDOWN
   "[markdown]": {
