@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <title></title> -->
+  </head>
+
+  <body>
+    <!-- Utiliza clases semánticas para mejorar la legibilidad del HTML -->
+    <div class="center disable-select">
+      <!-- Usa etiquetas semánticas para mejorar la accesibilidad -->
+      <time class="clock" id="clock"></time>
+    </div>
+
+    <form
+      autocomplete="off"
+      class="center overlay search-form"
+      id="search-form"
+      spellcheck="false"
+    >
+      <div>
+        <!-- Agrega etiquetas de accesibilidad, como el atributo "aria-label" -->
+        <input
+          class="search-input"
+          id="search-input"
+          title="search"
+          type="text"
+          aria-label="Search input"
+        />
+        <ul class="search-suggestions" id="search-suggestions"></ul>
+      </div>
+    </form>
+
+    <aside class="center help overlay disable-select" id="help"></aside>
+
+    <!-- Incluye tus scripts al final del body para mejorar el rendimiento de carga -->
+    <script src="js/svg-inject.min.js" defer></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/body.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/help.js" defer></script>
+    <script src="js/influencers.js" defer></script>
+    <script src="js/queryParser.js" defer></script>
+    <script src="js/suggester.js" defer></script>
+    <script src="js/index.js" defer></script>
+  </body>
+</html>

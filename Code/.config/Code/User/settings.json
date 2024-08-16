@@ -1,0 +1,158 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // INTERFAZ
+  //// WINDOW
+  "window.zoomLevel": 1,
+  "window.commandCenter": true,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "auto",
+  "window.newWindowDimensions": "maximized",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.activityBar.location": "hidden",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.iconTheme": "catppuccin-perfect-latte",
+
+  //// EDITOR
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "block",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.guides.bracketPairs": true,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.largeFileOptimizations": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "gutter",
+
+  //// TERMINAL
+  "terminal.integrated.fontSize": 13,
+
+  /// TIPOGRAFÍAS
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "scm.inputFontFamily": "JetBrains Mono",
+  "chat.editor.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "notebook.output.fontFamily": "JetBrains Mono",
+  "markdown.preview.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+
+  // THEME CUSTOMIZATION
+  "workbench.colorCustomizations": {
+    "[Sweet Dracula]": {
+      "editor.background": "#110f17",
+      "sideBar.background": "#110f17",
+      "tab.activeBorderTop": "#f1fa8c",
+      "terminal.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "tab.activeBackground": "#110f17",
+      "breadcrumb.background": "#110f17",
+      "tab.inactiveBackground": "#110f17",
+      "activityBar.background": "#110f17",
+      "titleBar.activeBackground": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17"
+    }
+  },
+
+  // LUA
+  "[lua]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.tabCompletion": "on",
+    "editor.quickSuggestionsDelay": 1,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.defaultFormatter": "yinfei.luahelper"
+  },
+
+  /// LUA CODER ASSIST
+  "LuaCoderAssist.debug": true,
+  "LuaCoderAssist.metric.enable": false,
+  "LuaCoderAssist.symbol.showFunctionOnly": true,
+
+  // HTML & CSS
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // JSON
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // JAVASCRIPT
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // DESKTOP FILES
+  "files.associations": { "*.desktop": "desktop" },
+
+  // MARKDOWN
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+
+  // EXCLUIR ARCHIVOS
+  "files.exclude": {
+    "**/.directory": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": true,
+    "**/.todo.md": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": false,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
+  },
+
+  // MISCELANEA
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.filePath": "off",
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
