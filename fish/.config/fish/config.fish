@@ -32,6 +32,7 @@ alias hx='helix'
 alias dotfiles='cd $HOME/.dotfiles'
 alias resolve='/opt/resolve/bin/resolve'
 alias code.dotfiles='code $HOME/.dotfiles'
+alias helix.dotfiles='helix $HOME/.dotfiles'
 
 # PYTHON VIRTUAL ENVIRONMENT
 alias envspotdl='. $HOME/.python-env/spotdl-env/bin/activate.fish'
