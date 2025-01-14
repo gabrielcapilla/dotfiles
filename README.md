@@ -35,4 +35,8 @@ You may find more than one profile. This is useful if you use more than one comp
     └── alacritty
 ```
 
-Learn more: [(Mirage)https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z4FG8oezk7bvVZtLbSvxNqAzA1Z32]
+## Links
+
+- [My profile in Radicle](https://app.radicle.xyz/nodes/seed.radicle.garden/users/did:key:z6Mkj6HutNfgxdf6fmJ3tFG1G6xWNuQKxHgBVhHpPqrGAQCp)
+- [Mirage: Dotfiles manager written in Nim](https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z4FG8oezk7bvVZtLbSvxNqAzA1Z32)
+- [Radicle: Descentralized and P2P GitHub alternative](https://radicle.xyz/#get-started)
