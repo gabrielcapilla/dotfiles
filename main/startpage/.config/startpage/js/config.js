@@ -82,21 +82,21 @@ const CONFIG = {
 
     {
       category: "Resources",
-      name: "ChatGPT",
-      key: "gpt",
-      url: "https://chat.openai.com/",
-      color: "linear-gradient(0deg, #10a37f, #0e7a67)",
-      icon: "gpt",
+      name: "Radicle",
+      key: "rad",
+      url: "https://app.radicle.xyz/nodes/ash.radicle.garden/users/z6Mkj6HutNfgxdf6fmJ3tFG1G6xWNuQKxHgBVhHpPqrGAQCp",
+      color: "linear-gradient(0deg,rgb(63, 23, 209),rgb(79, 30, 255))",
+      icon: "git",
       quickLaunch: false,
     },
 
     {
       category: "Resources",
-      name: "Arch Linux",
-      key: "arch",
-      url: "https://arch.d3sox.me/",
-      color: "linear-gradient(0deg, #1793d1, #1e90ff)",
-      icon: "arch",
+      name: "ChatGPT",
+      key: "gpt",
+      url: "https://chat.openai.com/",
+      color: "linear-gradient(0deg, #10a37f, #0e7a67)",
+      icon: "gpt",
       quickLaunch: false,
     },
 
@@ -261,8 +261,15 @@ const CONFIG = {
     },
 
     {
+      key: "arch",
+      url: "https://arch.d3sox.me/",
+      color: "linear-gradient(0deg, #1793d1, #1e90ff)",
+      quickLaunch: false,
+    },
+
+    {
       key: "x",
-      url: "https://twitter.com/home",
+      url: "https://x.com/home",
       search: "/search?q={}&src=typed_query",
       color: "#000000",
       quickLaunch: false,
