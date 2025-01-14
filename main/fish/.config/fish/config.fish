@@ -21,7 +21,7 @@ uv generate-shell-completion fish | source
 uvx --generate-shell-completion fish | source
 
 # ::::: RADICLE ::::: #
-export PATH="$PATH:/home/human/.radicle/bin"
+export PATH="$PATH:$HOME/.radicle/bin"
 
 # ::::: RUBY ::::: #
 # set -U fish_user_paths $HOME/.local/share/gem/ruby/3.3.0/bin $fish_user_paths
