@@ -1,6 +1,6 @@
 # dotfiles
 
-Dotfiles via [(Mirage)https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z4FG8oezk7bvVZtLbSvxNqAzA1Z32], the GNU Stow written in Nim.
+Dotfiles via [Mirage](https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z4FG8oezk7bvVZtLbSvxNqAzA1Z32), the GNU Stow written in Nim.
 
 To my future self:
 Simply use the `mirage` command to create symlinks with the configuration you need.
