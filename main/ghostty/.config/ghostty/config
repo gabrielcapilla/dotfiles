@@ -1,0 +1,44 @@
+# Theme and Appearance
+theme = catppuccin-espresso
+window-theme = ghostty
+adw-toolbar-style = flat
+window-decoration = true
+resize-overlay-position = bottom-right
+gtk-wide-tabs = true
+gtk-tabs-location = top
+desktop-notifications = true
+
+# Font Settings
+font-family = "JetBrains Mono"
+bold-is-bright = true
+
+# Window Dimensions
+window-height = 54
+window-width = 208
+
+# Cursor and Mouse Behavior
+cursor-style = block
+cursor-style-blink = false
+mouse-hide-while-typing = true
+unfocused-split-opacity = 1
+
+# Clipboard Settings
+clipboard-read = ask
+clipboard-write = allow
+copy-on-select = false
+clipboard-trim-trailing-spaces = true
+
+# Shell Integration
+shell-integration = fish
+shell-integration-features = sudo,title,no-cursor
+
+# Focus Behavior
+focus-follows-mouse = true
+
+# Keybindings
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_window
+keybind = ctrl+shift+up=new_split:up
+keybind = ctrl+shift+left=new_split:left
+keybind = ctrl+shift+down=new_split:down
+keybind = ctrl+shift+right=new_split:right

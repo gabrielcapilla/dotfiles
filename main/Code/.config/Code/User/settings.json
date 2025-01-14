@@ -1,0 +1,151 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // INTERFAZ
+  //// WINDOW
+  // "window.zoomLevel": 1,
+  "window.commandCenter": true,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "window.customTitleBarVisibility": "auto",
+  "window.newWindowDimensions": "maximized",
+  "workbench.startupEditor": "none",
+  "window.autoDetectColorScheme": false,
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.iconTheme": "catppuccin-perfect-dark",
+
+  //// EDITOR
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "block",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.guides.bracketPairs": true,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.largeFileOptimizations": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "all",
+
+  //// TERMINAL
+  "terminal.integrated.fontSize": 14,
+
+  /// TIPOGRAFÍAS
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "scm.inputFontFamily": "JetBrains Mono",
+  "chat.editor.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "notebook.output.fontFamily": "JetBrains Mono",
+  "markdown.preview.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Departure Mono",
+
+  // THEME CUSTOMIZATION
+  "workbench.colorCustomizations": {
+    "[Sweet Dracula]": {
+      "editor.background": "#110f17",
+      "sideBar.background": "#110f17",
+      "tab.activeBorderTop": "#f1fa8c",
+      "terminal.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "tab.activeBackground": "#110f17",
+      "breadcrumb.background": "#110f17",
+      "tab.inactiveBackground": "#110f17",
+      "activityBar.background": "#110f17",
+      "titleBar.activeBackground": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17"
+    }
+  },
+
+  // HTML & CSS
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+
+  // MARKDOWN
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // JSON
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // DESKTOP FILES
+  "files.associations": {
+    "*.colors": "ini",
+    "*.desktop": "desktop"
+  },
+
+  // JAVASCRIPT
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // NIM
+  "[nim]": {
+    "editor.defaultFormatter": "arnetheduck.vscode-nph"
+  },
+
+  // EXCLUIR ARCHIVOS
+  "files.exclude": {
+    "**/.directory": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": true,
+    "**/.todo.md": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": false,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
+  },
+
+  // MISCELANEA
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.filePath": "off",
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "firefoxCSS.targetPlatform": "Linux",
+  "firefoxCSS.launch.path": "/usr/lib/firefox/firefox",
+  "firefoxCSS.launch.closeExisting": true,
+  "window.newWindowProfile": "Default",
+  "terminal.external.linuxExec": "alacritty",
+  "workbench.colorTheme": "Python Dark Theme"
+}

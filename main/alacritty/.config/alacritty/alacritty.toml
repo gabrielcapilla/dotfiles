@@ -1,0 +1,43 @@
+
+[env]
+TERM = "xterm-256color"
+
+# [shell]
+# program = "tmux"
+
+[window]
+blur = false
+opacity = 1
+decorations = "full"
+startup_mode = "Windowed"
+padding = { x = 0, y = 0 }
+# position = { x = 0, y = 0 } #(only for x11)
+dimensions = { columns = 128, lines = 32 }
+
+[scrolling]
+history = 10000
+multiplier = 6
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[cursor]
+blink_timeout = 0
+blink_interval = 600
+unfocused_hollow = false
+style = { shape = "Block", blinking = "Always" }
+
+[mouse]
+hide_when_typing = true
+
+[general]
+
+live_config_reload = true
+import = [
+  "~/.config/alacritty/fonts.toml",
+  # "~/.config/alacritty/themes/darkly-sur.toml",
+  # "~/.config/alacritty/themes/darkly-void.toml",
+  # "~/.config/alacritty/themes/catppuccin-mocha.toml",
+  "~/.config/alacritty/themes/catppuccin-espresso.toml",
+]

@@ -1,14 +1,28 @@
 # dotfiles
 
-Dotfiles via GNU Stow.
+Dotfiles via [(Tuckr)https://github.com/RaphGL/Tuckr], the super powered GNU Stow replacement
 
 To my future self:
-Simply use the `stow` command inside the `.dotfiles` folder to create symlinks with the configuration you need.
+Simply use the `tuckr` command inside the `.dotfiles` folder to create symlinks with the configuration you need.
 
-Example
+Usage
 
 ```sh
-stow alacritty
+tuckr add \* # adds all dotfiles to the system
+tuckr add \* -e alacritty # adds all dotfiles except alacritty
+tuckr add alacritty fish # adds the alacritty and fish dotfiles only
+tuckr set \* # adds all the dotfiles and runs their hooks (scripts)
+tuckr rm \* # removes all dotfiles from your system
+```
+
+How it works?
+Tuckr works with no configuration, this is achieved by making some assumptions about the structure of your dotfiles directory. Every Tuckr dotfiles directory should have the following structure:
+
+```sh
+dotfiles
+├── Configs # Dotfiles go here
+├── Secrets # Encrypted files go here
+└── Hooks # Setup scripts go here
 ```
 
 ## Alacritty
