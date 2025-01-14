@@ -16,18 +16,26 @@ alias paru.pkglist='paru -Qqe > pkglist.txt'
 alias code.dotfiles='code $HOME/.dotfiles'
 alias code.fish='code $HOME/.dotfiles/Configs/fish/.config/fish'
 alias code.helix='code $HOME/.dotfiles/Configs/helix/.config/helix'
+alias code.ghostty='code $HOME/.dotfiles/main/ghostty/.config/ghostty'
 alias code.alacritty='code $HOME/.dotfiles/Configs/alacritty/.config/alacritty'
-alias code.userchrome='code $HOME/.mozilla/firefox/t729syma.default-release/chrome/'
 
 # HELIX
 alias helix.dotfiles='helix $HOME/.dotfiles'
-alias helix.fish='helix $HOME/.dotfiles/Configs/fish/.config/fish'
-alias helix.helix='helix $HOME/.dotfiles/Configs/helix/.config/helix'
-alias helix.alacritty='helix $HOME/.dotfiles/Configs/alacritty/.config/alacritty'
-alias helix.userchrome='helix $HOME/.mozilla/firefox/t729syma.default-release/chrome/'
+alias helix.fish='helix $HOME/.dotfiles/main/fish/.config/fish'
+alias helix.helix='helix $HOME/.dotfiles/main/helix/.config/helix'
+alias helix.ghostty='helix $HOME/.dotfiles/main/ghostty/.config/ghostty'
+alias helix.alacritty='helix $HOME/.dotfiles/main/alacritty/.config/alacritty'
 
+# ZED
+alias zed.dotfiles='zeditor $HOME/.dotfiles'
+alias zed.fish='zeditor $HOME/.dotfiles/main/fish/.config/fish'
+alias zed.helix='zeditor $HOME/.dotfiles/main/helix/.config/helix'
+alias zed.ghostty='zeditor $HOME/.dotfiles/main/ghostty/.config/ghostty'
+alias zed.alacritty='zeditor $HOME/.dotfiles/main/alacritty/.config/alacritty'
 
 # PYTHON VIRTUAL ENVIRONMENT
+# USE UV INSTEAD VANILLA PIP
+alias up.piper='uv pip install --upgrade piper'
 # alias up.spotdl='pip install --upgrade spotdl'
-# USE UV INSTEAD OF VANILLA PIP
 alias up.spotdl='uv pip install --upgrade spotdl'
+alias up.gitingest='uv pip install --upgrade gitingest'

@@ -20,6 +20,9 @@ set -x PYTHONPATH /usr/lib/python3.13/site-packages $PYTHONPATH
 uv generate-shell-completion fish | source
 uvx --generate-shell-completion fish | source
 
+# ::::: RADICLE ::::: #
+export PATH="$PATH:/home/human/.radicle/bin"
+
 # ::::: RUBY ::::: #
 # set -U fish_user_paths $HOME/.local/share/gem/ruby/3.3.0/bin $fish_user_paths
 # set -gx GEM_HOME "$HOME/.local/share/.gem/ruby/3.3.0"
@@ -49,5 +52,4 @@ alias grayjay "nohup bash -c 'cd /home/human/Descargas/grayjay/ && ./Grayjay %U 
 alias resolve='LD_PRELOAD="/usr/lib64/libglib-2.0.so.0 /usr/lib64/libgio-2.0.so.0 /usr/lib64/libgmodule-2.0.so.0" /opt/resolve/bin/resolve'
 alias dotfiles='cd $HOME/.dotfiles/Configs'
 
-# Added by Radicle.
-export PATH="$PATH:/home/human/.radicle/bin"
+
