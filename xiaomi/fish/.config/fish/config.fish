@@ -48,4 +48,4 @@ alias reiniciar='shutdown -r now'
 alias bios='systemctl reboot --firmware-setup'
 
 # ::::: ALIASES ::::: #
-alias dotfiles='cd $HOME/.dotfiles'
+alias dotfiles='cd $HOME/.dotfiles/xiaomi'

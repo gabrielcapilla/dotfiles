@@ -1,5 +1,5 @@
 # Theme and Appearance
-theme = nimble-dark
+theme = nimble
 window-theme = ghostty
 adw-toolbar-style = flat
 window-decoration = true
@@ -14,8 +14,9 @@ bold-is-bright = true
 font-size = 18
 
 # Window Dimensions
-window-height = 28
-window-width = 116
+fullscreen = true
+# window-height = 28
+# window-width = 116
 
 # Cursor and Mouse Behavior
 cursor-style = block

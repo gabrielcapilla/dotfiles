@@ -1,5 +1,5 @@
 # Theme and Appearance
-theme = catppuccin-espresso
+theme = nimble
 window-theme = ghostty
 adw-toolbar-style = flat
 window-decoration = true
