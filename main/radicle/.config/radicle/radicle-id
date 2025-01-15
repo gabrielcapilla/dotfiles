@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Note:
+# Encrypt with GPG
+# tar czf - .radicle | gpg -c -o radicle-backup.tar.gz.gpg
+#
+
+readonly TARGET_DIR="$HOME"
+readonly BACKUP_FILE="radicle-backup.tar.gz.gpg"
+
+function check_dependencies() {
+    if ! command -v gpg &>/dev/null; then
+        die "Error: GPG is not installed. Please install it first.\nOn Debian/Ubuntu: sudo apt install gnupg\nOn Arch: sudo pacman -S gnupg"
+    fi
+}
+
+function check_backup_file() {
+    if [ ! -f "$BACKUP_FILE" ]; then
+        die "Error: The backup file '$BACKUP_FILE' does not exist."
+    fi
+}
+
+function restore_backup() {
+    echo "Decrypting and decompressing the file '$BACKUP_FILE' into '$TARGET_DIR'..."
+    if ! gpg -d "$BACKUP_FILE" | tar xz -C "$TARGET_DIR"; then
+        die "Error: There was a problem decrypting or decompressing the file."
+    fi
+    echo "Backup successfully restored to '$TARGET_DIR'!"
+}
+
+function die() {
+    echo -e "$1" >&2
+    exit 1
+}
+
+function main() {
+    check_dependencies
+    check_backup_file
+    restore_backup
+}
+
+main
