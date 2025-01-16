@@ -1,21 +1,15 @@
 palette = 0=#494d64
 palette = 1=#ed8796
-# funciones (beige)
 palette = 2=#D7BA7D
 palette = 3=#eed49f
-# numeros
 palette = 4=#a4b1cd
-# palabras clave
 palette = 5=#569CD6
-# tipos (turquesa)
 palette = 6=#5DEED1
-palette = 7=#a5adcb
+palette = 7=#001219
 palette = 8=#5b6078
 palette = 9=#ec7486
-# strings (Verde lima)
 palette = 10=#d2ff77
 palette = 11=#e1c682
-# palabras clave (azul claro)
 palette = 12=#5DEED1
 palette = 13=#f2a9dd
 palette = 14=#63cbc0
