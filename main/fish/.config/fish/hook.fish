@@ -13,14 +13,14 @@ alias pacman.clean='paccache -r'
 alias paru.pkglist='paru -Qqe > pkglist.txt'
 
 # CODE
-alias code.dotfiles='code $HOME/.dotfiles'
-alias code.fish='code $HOME/.dotfiles/Configs/fish/.config/fish'
-alias code.helix='code $HOME/.dotfiles/Configs/helix/.config/helix'
-alias code.ghostty='code $HOME/.dotfiles/main/ghostty/.config/ghostty'
-alias code.alacritty='code $HOME/.dotfiles/Configs/alacritty/.config/alacritty'
+alias code.dotfiles='code $HOME/.dotfiles/'
+alias code.fish='code $HOME/.dotfiles/main/fish/.config/fish/'
+alias code.helix='code $HOME/.dotfiles/main/helix/.config/helix/'
+alias code.ghostty='code $HOME/.dotfiles/main/ghostty/.config/ghostty/'
+alias code.alacritty='code $HOME/.dotfiles/main/alacritty/.config/alacritty/'
 
 # HELIX
-alias helix.dotfiles='helix $HOME/.dotfiles'
+alias helix.dotfiles='helix $HOME/.dotfiles/main'
 alias helix.fish='helix $HOME/.dotfiles/main/fish/.config/fish'
 alias helix.helix='helix $HOME/.dotfiles/main/helix/.config/helix'
 alias helix.ghostty='helix $HOME/.dotfiles/main/ghostty/.config/ghostty'

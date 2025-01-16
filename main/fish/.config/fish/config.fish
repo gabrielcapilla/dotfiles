@@ -45,11 +45,10 @@ alias back='b'
 alias edit='helix'
 alias apagar='shutdown now'
 alias reiniciar='shutdown -r now'
+alias radicle='eval (ssh-agent -c); rad auth'
 alias bios='systemctl reboot --firmware-setup'
 
 # ::::: ALIASES ::::: #
 alias grayjay "nohup bash -c 'cd /home/human/Descargas/grayjay/ && ./Grayjay %U > /dev/null 2>&1 &'"
 alias resolve='LD_PRELOAD="/usr/lib64/libglib-2.0.so.0 /usr/lib64/libgio-2.0.so.0 /usr/lib64/libgmodule-2.0.so.0" /opt/resolve/bin/resolve'
 alias dotfiles='cd $HOME/.dotfiles/Configs'
-
-
