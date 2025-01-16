@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# Note:
+# Encrypt with GPG
+# tar cf - .radicle | xz -9e | gpg -c -o radicle-backup.tar.xz.gpg
+#
+
+readonly HOME_DIR="$HOME"
+
+function check_dependencies() {
+    if ! command -v gpg &>/dev/null; then
+        die "Error: GPG is not installed. Please install it first.\nOn Debian/Ubuntu: sudo apt install gnupg\nOn Arch: sudo pacman -S gnupg"
+    fi
+}
+
+function find_backup_file() {
+    local gpg_files=("$PWD"/*.gpg)
+    if [ ${#gpg_files[@]} -eq 0 ]; then
+        die "Error: No .gpg backup file found in the current directory."
+    elif [ ${#gpg_files[@]} -gt 1 ]; then
+        die "Error: Multiple .gpg files found in the current directory. Please ensure only one backup file exists."
+    else
+        readonly BACKUP_FILE="${gpg_files[0]}"
+        echo "Using backup file: $BACKUP_FILE"
+    fi
+}
+
+function check_target_directory() {
+    if [ -d "$HOME_DIR/.radicle" ]; then
+        die "Error: The directory '$HOME_DIR/.radicle' already exists. Please remove or rename it before restoring the backup."
+    fi
+}
+
+function restore_backup() {
+    echo "Decrypting and decompressing the file '$BACKUP_FILE' into '$HOME_DIR'..."
+    if ! gpg -d "$BACKUP_FILE" | xz -d | tar xf - -C "$HOME_DIR"; then
+        die "Error: There was a problem decrypting or decompressing the file."
+    fi
+    echo "Backup successfully restored to '$HOME_DIR'!"
+}
+
+function die() {
+    echo -e "$1" >&2
+    exit 1
+}
+
+function main() {
+    check_dependencies
+    find_backup_file
+    check_target_directory
+    restore_backup
+}
+
+main
