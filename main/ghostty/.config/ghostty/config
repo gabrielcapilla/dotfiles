@@ -1,5 +1,5 @@
 # Theme and Appearance
-theme = nimble
+theme = Nimble
 window-theme = ghostty
 adw-toolbar-style = flat
 window-decoration = true
