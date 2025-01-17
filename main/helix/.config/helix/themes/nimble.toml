@@ -1,0 +1,158 @@
+# Tema: Nimble
+# Autor: Gabriel Capilla
+
+# Colores para tipos de datos y constantes
+"type" = "#5DEED1"                        # Tipos de datos (ejemplo: `int`, `string`)
+"constant" = "#A4B1CD"                    # Constantes (ejemplo: `const PI = 3.14`)
+"constant.numeric" = "#A4B1CD"            # Números (ejemplo: `42`, `3.14`)
+"constant.character.escape" = "#afabb1ff" # Caracteres de escape (ejemplo: `\n`, `\t`)
+
+# Colores para cadenas de texto
+"string" = "#d2ff77"                # Cadenas de texto (ejemplo: `"Hola mundo"`)
+"string.regexp" = "#ffaf00"         # Expresiones regulares (ejemplo: `r"\d+"`)
+"string.special.symbol" = "#ffaf00" # Símbolos especiales dentro de cadenas
+
+# Comentarios
+"comment" = "#6286a7" # Comentarios (ejemplo: `# Esto es un comentario`)
+
+# Variables
+"variable" = "#9CDCFF"              # Variables normales (ejemplo: `let x = 10`)
+"variable.builtin" = "#9CDCFF"      # Variables integradas (ejemplo: `this`, `self`)
+"variable.parameter" = "#9CDCFF"    # Parámetros de funciones (ejemplo: `name` en `proc main(name: string)`)
+"variable.other.member" = "#9CDCFF" # Miembros de objetos o estructuras
+
+# Etiquetas y palabras clave
+"label" = "#9fef00"             # Etiquetas (ejemplo: `label:` en algunos lenguajes)
+"keyword" = "#569CD6"           # Palabras clave (ejemplo: `proc`, `if`, `else`)
+"keyword.directive" = "#569CD6" # Directivas (ejemplo: `#include`, `#define`)
+
+# Operadores y puntuación
+"operator" = "#f4f4f4"                # Operadores (ejemplo: `+`, `-`, `&`, `=`)
+"punctuation" = "#d8d5dbff"           # Puntuación general (ejemplo: `:`, `;`)
+"punctuation.delimiter" = "#d8d5dbff" # Delimitadores (ejemplo: `,`, `.`)
+"punctuation.bracket" = "#ffaf00"     # Corchetes y llaves (ejemplo: `()`, `{}`, `[]`)
+
+# Funciones
+"function" = "#D7BA7D"         # Nombres de funciones (ejemplo: `main`)
+"function.builtin" = "#D7BA7D" # Funciones integradas (ejemplo: `echo`)
+"function.macro" = "#D7BA7D"   # Macros (ejemplo: `macro` en algunos lenguajes)
+"function.method" = "#D7BA7D"  # Métodos (ejemplo: `obj.method()`)
+
+# Otros elementos
+"tag" = "#F87F7F"         # Etiquetas (ejemplo: `<div>` en HTML)
+"namespace" = "#5DEED1"   # Espacios de nombres (ejemplo: `std::` en C++)
+"attribute" = "#9CDCFE"   # Atributos (ejemplo: `@attr` en Python)
+"constructor" = "#5DEED1" # Constructores (ejemplo: `new` en algunos lenguajes)
+"module" = "#5DEED1"      # Módulos (ejemplo: `import module`)
+"special" = "#9fef00"     # Elementos especiales (ejemplo: `this`, `super`)
+
+# Marcado (markup)
+"markup.heading.marker" = "#f7f7f8ff" # Marcadores de encabezado (ejemplo: `#` en Markdown)
+"markup.heading.1" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 1
+"markup.heading.2" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 2
+"markup.heading.3" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 3
+"markup.heading.4" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 4
+"markup.heading.5" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 5
+"markup.heading.6" = { fg = "#f7f7f8ff", modifiers = [
+    "bold",
+] } # Encabezado nivel 6
+"markup.list" = "#f7f7f8ff" # Listas (ejemplo: `- item` en Markdown)
+"markup.bold" = { modifiers = [
+    "bold",
+] } # Texto en negrita (ejemplo: `**texto**`)
+"markup.italic" = { modifiers = [
+    "italic",
+] } # Texto en cursiva (ejemplo: `*texto*`)
+"markup.link.url" = { fg = "#9fef00", modifiers = [
+    "underlined",
+] } # URLs (ejemplo: `[texto](url)`)
+"markup.link.text" = "#ffaf00" # Texto de enlaces (ejemplo: `[texto](url)`)
+"markup.quote" = "#f7f7f8ff" # Citas (ejemplo: `> cita` en Markdown)
+"markup.raw" = "#f7f7f8ff" # Texto sin formato (ejemplo: ````code```)
+
+# Diferencias (diff)
+"diff.plus" = "#9fef00"  # Líneas añadidas (ejemplo: `+ nueva línea`)
+"diff.delta" = "#ffaf00" # Líneas modificadas (ejemplo: `~ línea modificada`)
+"diff.minus" = "#F87F7F" # Líneas eliminadas (ejemplo: `- línea eliminada`)
+
+# Interfaz de usuario (UI)
+"ui.background" = { bg = "background" } # Fondo de la interfaz
+"ui.background.separator" = "#121c2b" # Separadores en la interfaz
+"ui.cursor" = { fg = "background", bg = "#9fef00" } # Cursor
+"ui.cursor.match" = { fg = "#ffaf00", bg = "#313f55" } # Coincidencia del cursor (ejemplo: paréntesis coincidentes)
+"ui.cursor.insert" = { fg = "background", bg = "#9fef00" } # Cursor en modo inserción
+"ui.cursor.select" = { fg = "background", bg = "#569CD6" } # Cursor en modo selección
+"ui.cursorline.primary" = { bg = "cursorline" } # Línea activa
+"ui.cursorline.secondary" = { bg = "secondary_cursor" } # Línea activa secundaria
+"ui.selection" = { bg = "#313f55" } # Texto seleccionado
+"ui.linenr" = "#313f55" # Números de línea
+"ui.linenr.selected" = "#a4b1cd" # Número de línea seleccionado
+"ui.statusline" = { fg = "#a4b1cd", bg = "#1a2332" } # Barra de estado
+"ui.statusline.inactive" = { fg = "#6e7b96a9", bg = "#121c2b" } # Barra de estado inactiva
+"ui.statusline.normal" = { fg = "background", bg = "#9fef00", modifiers = [
+    "bold",
+] } # Barra de estado en modo normal
+"ui.statusline.insert" = { fg = "background", bg = "#569CD6", modifiers = [
+    "bold",
+] } # Barra de estado en modo inserción
+"ui.statusline.select" = { fg = "background", bg = "#ffaf00", modifiers = [
+    "bold",
+] } # Barra de estado en modo selección
+"ui.bufferline" = { fg = "#a4b1cd", bg = "#121c2b" } # Línea de búfer
+"ui.bufferline.active" = { fg = "#a4b1cd", bg = "#1a2332", modifiers = [
+    "bold",
+] } # Búfer activo
+"ui.popup" = { fg = "#a4b1cd", bg = "#1a2332" } # Ventanas emergentes
+"ui.window" = { fg = "#a4b1cd", bg = "background" } # Ventanas
+"ui.help" = { fg = "#a4b1cd", bg = "#1a2332" } # Ayuda
+"ui.text" = "#a4b1cd" # Texto de la interfaz
+"ui.text.focus" = "#9fef00" # Texto enfocado
+"ui.menu" = { fg = "#a4b1cd", bg = "#1a2332" } # Menús
+"ui.menu.selected" = { fg = "#1a2332", bg = "#9fef00" } # Elemento seleccionado en menús
+"ui.virtual.whitespace" = { fg = "#313f55" } # Espacios en blanco virtuales
+"ui.virtual.indent-guide" = { fg = "#313f55" } # Guías de indentación
+"ui.virtual.ruler" = { bg = "#1a2332" } # Regla virtual
+
+# Diagnósticos y mensajes
+"hint" = "#618399ff"                                                          # Sugerencias
+"info" = "#9fef00"                                                            # Información
+"warning" = "#ffaf00"                                                         # Advertencias
+"error" = "#F87F7F"                                                           # Errores
+"diagnostic" = { underlined = { style = "line" } }                            # Diagnósticos subrayados
+"diagnostic.hint" = { underline = { color = "#618399ff", style = "dotted" } } # Sugerencias subrayadas
+"diagnostic.info" = { underline = { color = "#9fef00", style = "dotted" } }   # Información subrayada
+"diagnostic.warning" = { underline = { color = "#ffaf00", style = "curl" } }  # Advertencias subrayadas
+"diagnostic.error" = { underline = { color = "#F87F7F", style = "curl" } }    # Errores subrayados
+
+# Paleta de colores
+[palette]
+background = "#0f1724" # Fondo principal
+fg = "#a4b1cd"         # Texto principal
+bg1 = "#1a2332"        # Fondo secundario
+bg2 = "#121c2b"        # Fondo terciario
+bg3 = "#313f55"        # Fondo de la barra de estado
+bg4 = "#435777"        # Fondo de selección
+bg5 = "#6e7b96a9"      # Fondo de menús
+white = "#f7f7f8ff"    # Blanco
+cyan = "#5DEED1"       # Cian
+purple = "#9f00ff"     # Morado
+yellow = "#ffaf00"     # Amarillo
+skyblue = "#569CD6"    # Azul cielo
+orange = "#D7BA7D"     # Naranja
+green = "#d2ff77"      # Verde
+coral = "#FF6D6D"      # Coral
+red = "#F87F7F"        # Rojo
+blue = "#569CD6"       # Azul
+
+cursorline = "#0f1724"
+secondary_cursor = "#1a2332"
